@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F0F0F0;
+
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 32px 0; 
+}
+p{
+    padding: 8px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+}
+.container{
+    max-width: 70vw;
+    padding: 16px;
+}
+.bar{
+    width: 0;
+    height: 4px;
+    background-color: #6633cc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: 0.4s;
+}
